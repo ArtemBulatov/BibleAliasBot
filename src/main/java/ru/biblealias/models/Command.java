@@ -1,0 +1,39 @@
+package ru.biblealias.models;
+
+public enum Command {
+    HELLO,
+    DONT_UNDERSTAND,
+    YES,
+    NO,
+    FEEDBACK_MESSAGE,
+
+    START_NEW_GAME,
+    STOP_GAME,
+    INSTRUCTION,
+    SEND_FEEDBACK,
+    SETTINGS,
+
+    LANGUAGE,
+    RUSSIAN,
+    ENGLISH,
+    UKRAINIAN,
+
+    GAME_MODE,
+    OLD_TESTAMENT,
+    NEW_TESTAMENT,
+    ALL_BIBLE,
+    CHRISTMAS,
+
+    CHANGE_SETTINGS,
+    ROUND_DURATION,
+    PENALTY,
+    PENALTY_ONE,
+    PENALTY_TWO,
+    PENALTY_ZERO,
+
+    PLAY_USING_THE_CURRENT_SETTINGS,
+    GET_TASK,
+    START_GUESSING_WORDS,
+    GUESSED,
+    NOT_GUESSED,
+}
